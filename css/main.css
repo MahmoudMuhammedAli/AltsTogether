@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/alts-background.png");
+  background-size: cover;
+  min-width: 360px;
+  min-height: 600px;
+  background-position: center;
+}
+.container {
+  padding: 0 1.25rem;
+}
+
+.logo {
+  border-top: 1px solid transparent;
+  padding-top: 5rem;
+}
+
+.logo img {
+  width: 49.1px;
+  height: 34px;
+  object-fit: contain;
+}
+
+/* wallet Welcome Section */
+
+.welcome {
+  margin-top: 2.5rem;
+  margin-bottom: 6rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.welcome h2 {
+  width: 191px;
+  height: 37px;
+  object-fit: contain;
+  font-family: FuturaPT;
+  font-size: 28px;
+}
+.welcome p {
+  object-fit: contain;
+  font-family: FuturaPT;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+/* password styles */
+
+.password {
+  margin: 9rem 0 2rem 0;
+}
+
+.password label {
+  display: block;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.password input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #c6cbe1;
+  display: block;
+  width: 100%;
+  color: #c6cbe1;
+  font-size: 1rem;
+}
+
+.unlockbtn {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  width: 310px;
+  height: 50px;
+  border: solid 2px #edb3bf;
+  cursor: pointer;
+}
+
+/* starting footer styles */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #211926;
+  font-size: 0.8rem;
+}
+
+.import-using {
+  margin-bottom: 0.7rem;
+}
+
+.import-options {
+  margin-bottom: 1.2rem;
+}
+
+.import-options__or {
+  counter-reset: #606467;
+}
+
+.import-options__privatekey {
+  font-weight: bold;
+}
