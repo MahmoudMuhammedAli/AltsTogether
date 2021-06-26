@@ -1,0 +1,135 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 360px;
+  height: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.container {
+  padding-left: 26px;
+  padding-right: 22px;
+  position: absolute;
+  max-width: 360px;
+  width: 360px;
+}
+
+header {
+  position: relative;
+  border-top: 1px solid #5f6366;
+}
+
+header .container {
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .background {
+  position: absolute;
+  background-color: #5f6366;
+  height: 90.7px;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+  transform: scaleX(1.5);
+  transform-origin: center;
+  width: 360px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+}
+
+.logo img {
+  width: 49.1px;
+  height: 34px;
+}
+
+.header-image {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.account {
+  color: #fff;
+}
+.account-details {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.account-symbol {
+  width: 14px;
+  height: 14px;
+  background-color: #03f4b7;
+  border-radius: 2px;
+  margin-right: 0.5rem;
+}
+.account-name {
+  font-size: 18px;
+}
+.account .arrow {
+  margin-left: 0.5rem;
+}
+.customer-status {
+  margin-top: 0.5rem;
+  font-size: 14px;
+  margin-left: 22px;
+}
+
+.header-image img {
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* starting card styles */
+.cards {
+  margin-top: 9rem;
+}
+.card {
+  border-radius: 10px;
+  border: solid 1px #e5e5e5;
+  padding: 0 21px;
+  margin-bottom: 19.4px;
+}
+
+.card__heading {
+  text-align: left;
+  color: #707070;
+  font-size: 18px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.content {
+  margin-bottom: 42.8px;
+  color: #707070;
+  font-size: 16px;
+}
+
+.view-account {
+  margin-bottom: 24.2px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.view-account button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #707070;
+  font-size: 18px;
+  font-size: 300;
+}

@@ -1,0 +1,241 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 360px;
+  height: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.container {
+  padding-left: 26px;
+  padding-right: 22px;
+  max-width: 360px;
+  width: 360px;
+}
+
+header {
+  position: relative;
+  border-top: 1px solid #5f6366;
+}
+
+header .container {
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .background {
+  position: absolute;
+  background-color: #5f6366;
+  height: 90.7px;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+  transform: scaleX(1.5);
+  transform-origin: center;
+  width: 360px;
+  z-index: -1;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+}
+
+.logo img {
+  width: 49.1px;
+  height: 34px;
+}
+
+.header-image {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.account {
+  color: #fff;
+}
+.account-details {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.account-symbol {
+  width: 14px;
+  height: 14px;
+  background-color: #03f4b7;
+  border-radius: 2px;
+  margin-right: 0.5rem;
+}
+.account-name {
+  font-size: 18px;
+}
+.account .arrow {
+  margin-left: 0.5rem;
+}
+.customer-status {
+  margin-top: 0.5rem;
+  font-size: 14px;
+  margin-left: 22px;
+}
+
+.header-image img {
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* starting wallet info styles  */
+
+header .background-purple {
+  z-index: -2;
+  transform: scaleX(1.5) translateY(-7px);
+  height: 109.6px;
+  background-color: #edb3bf;
+}
+
+.wallet-info {
+  text-align: center;
+  color: #5f6366;
+}
+
+.wallet-info__accountname {
+  margin-top: 28.9px;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.wallet-info__walletaddress {
+  color: #5f6366;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.wallet-info__accountnumber {
+  font-size: 14px;
+}
+
+/* starting balance styling */
+
+.balance {
+  position: relative;
+  margin-top: 4rem;
+}
+.box {
+  width: 141.1px;
+  height: 141.1px;
+  border: solid 1px #edb3bf;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(-45deg);
+  background-color: #fff;
+}
+
+.box__arrow {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 10.1px;
+  height: 10.1px;
+  object-fit: contain;
+}
+.balance-background {
+  position: absolute;
+  z-index: -1;
+  margin-top: 1.6rem;
+  width: 360px;
+  background-color: #f5d4db;
+  width: 360px;
+  height: 91.7px;
+}
+.balance-background .background {
+  position: absolute;
+  background-color: #fff;
+  height: 90.7px;
+  border-radius: 0 0 57% 57%/0 0 100% 100%;
+  transform: scaleX(1.5);
+  transform-origin: center;
+  width: 360px;
+  z-index: -1;
+  top: -71px;
+}
+.balance-background .background.bottom-background {
+  transform: rotate(180deg) scaleX(1.5);
+  top: 73px;
+}
+
+.box__info {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  color: #edb3bf;
+  font-weight: bold;
+  width: 100%;
+  font-size: 20px;
+}
+
+.box__info__maincoin {
+  font-size: 28px;
+}
+
+/* starting styles for footer */
+
+footer {
+  margin-top: 15.5rem;
+  text-align: center;
+}
+
+footer .actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.actions .btn {
+  width: 150px;
+  height: 81px;
+  border: solid 1px #edb3bf;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+  color: #edb3bf;
+  font-size: 16px;
+  font-weight: 900;
+}
+.actions .btn .icon {
+  width: 23px;
+  height: 23px;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  background-size: cover;
+}
+
+.send-btn .icon {
+  background-image: url("../images/direct.svg");
+}
+
+.swap-btn .icon {
+  background-image: url("../images/swap.svg");
+}
+
+footer .view-assets {
+  color: #1d1d1d;
+  width: 100%;
+  text-align: center;
+  background-color: #edb3bf;
+  width: 310px;
+  height: 50px;
+  margin-top: 19.6px;
+  font-size: 18px;
+}
