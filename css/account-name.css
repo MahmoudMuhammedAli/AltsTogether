@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page {
+  width: 360px;
+  height: 600px;
+  padding: 0 0 1px 0.5px;
+  opacity: 0.9;
+  box-shadow: 0 3px 16px 0 rgba(65, 65, 65, 0.15);
+  background-color: #5f6366;
+  position: relative;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+.container {
+  padding: 26px 23px 0 27px;
+  width: 100%;
+}
+
+/* starting the styles of the header */
+
+.logo {
+  margin-bottom: 24px;
+}
+
+.logo img {
+  width: 49.1px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.back {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 26.7px;
+}
+
+/* starting styles of the main */
+
+.account-heading {
+  margin-bottom: 31.9px;
+  color: #f5d4db;
+  font-size: 20px;
+  text-align: center;
+}
+
+.barcode {
+  height: 176.8px;
+  width: 176.9px;
+  margin: auto;
+  margin-bottom: 30.9px;
+  background-image: url("../images/barcode.svg");
+  background-size: cover;
+}
+
+.account-code {
+  margin-bottom: 28.1px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.account-code label {
+  margin-bottom: 0.5rem;
+  line-height: 1.29;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.account-code input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #c4c4c4;
+  background-color: transparent;
+  padding-bottom: 0.5rem;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* starting styles of the footer */
+
+.privatebtn {
+  font-size: 18px;
+  color: #1d1d1d;
+  line-height: 0.56;
+  text-align: center;
+  width: 310px;
+  height: 50px;
+  margin-bottom: 14.1px;
+}
+
+.viewbtn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+}
