@@ -9,6 +9,7 @@
   font-size: 18px;
 }
 
+
 .back {
   margin-top: 20px;
 }
@@ -45,6 +46,14 @@
 .price_container {
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 350px;
+  scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar {
+    display: none;
 }
 .prices {
   background-color: #505355;
@@ -58,14 +67,19 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 10px;
 }
+.prices:hover{
+    border: 2px solid  #edb3bf;
+    background-color: #343434;
+}
 .apprv {
   width: 26px;
   text-align: center;
-  background-color: red;
   padding: 1px 9px;
   border-radius: 5px;
   margin-left: 30px;
 }
+
+
 #apprv_pink1 {
   background-color: #edb3bf;
 }
@@ -76,6 +90,26 @@
   background-color: #03F4B7;
   color:#5F6366;
 }
+#apprv_green:hover {
+    color:aliceblue;
+}
+
 #apprv_red {
   background-color: #FF6E6E;
+}
+#percentage{
+    color:#bdbdbd;
+}
+.select{
+    font-size:18px;
+    color: #1d1d1d;
+    margin-top:80px;
+    height:50px; 
+    background-color:#F5D4DB;
+    border:1px solid #EDB3BF;
+    transition: .5s ease-in-out;
+}
+.select:hover{
+    background-color:#f9f9f9;
+    color:#f8b9c2;
 }
