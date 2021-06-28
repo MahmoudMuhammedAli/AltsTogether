@@ -52,7 +52,7 @@
   flex-direction: column;
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 350px;
+  height: 407px;
   scroll-behavior: smooth;
 
 }
@@ -112,10 +112,12 @@
     font-size:18px;
     color: #1d1d1d;
     margin-top:80px;
-    height:200px; 
     background-color:#F5D4DB;
     border:1px solid #EDB3BF;
     transition: .5s ease-in-out;
+    padding:25px;   
+    margin-bottom: 70px;
+
 }
 .select:hover{
     background-color:#f9f9f9;
