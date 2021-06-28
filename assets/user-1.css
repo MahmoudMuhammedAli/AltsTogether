@@ -12,9 +12,12 @@
 
 .back {
   margin-top: 20px;
+  cursor: pointer;
 }
-.back span {
+.back a {
   margin-left: 5px;
+  text-decoration: none;
+  color: white;
 }
 .q_dets {
   font-size: 19px;
@@ -39,10 +42,11 @@
 }
 #odd1{
     width:114px;
-}
-#odd2{
-    width:84px;
-} */
+}*/
+#odd1{
+    margin-left: -6px;
+    width : 114px;
+} 
 .price_container {
   display: flex;
   flex-direction: column;
@@ -55,6 +59,7 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
 .prices {
   background-color: #505355;
   border: 1px solid #707070;
@@ -66,6 +71,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 10px;
+}
+.n2{
+    margin-left: -20px;
 }
 .prices:hover{
     border: 2px solid  #edb3bf;
@@ -104,7 +112,7 @@
     font-size:18px;
     color: #1d1d1d;
     margin-top:80px;
-    height:50px; 
+    height:200px; 
     background-color:#F5D4DB;
     border:1px solid #EDB3BF;
     transition: .5s ease-in-out;
