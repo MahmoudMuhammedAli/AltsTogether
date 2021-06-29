@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <div class="viewport" width="600">
+    <div class="page" >
       <header>
         <div class="background"></div>
         <div class="container">
@@ -31,6 +31,56 @@
           </div>
         </div>
       </header>
+      <div class="add">
+        <p> ADD RECIPIENT</p>
+      </div>
+      <div class="form-container">
+      <form class="main_form">
+        <label id="add_rec_lbl" for="add_rec">
+          Add Recipient
+        </label>
+        <input type="text" name="add_recipient" value="0x42Be..5F53" id="add_rec">
+        <br/>
+        <label for="assets" id="assets_lbl"></label>
+        <select name="assets" id="assets">
+          <option id="disabled_option" value="">assets</option>
+          <option value="eth">ETH</option>
+          <option value="polkadot">Polkadot</option>
+          <option value="cardono">Cardono</option>
+        </select>
+        <br>
+        <label for="amount" class="amount">Amount of assets</label>
+        <input type="number" name="amount_of_assets" id="amount_of_assets">
+        <br/>
+        <p class="tras_fee">
+          Transaction fee
+        </p>
+        <div class="radio_holder">
+          <div class="choose_speed">
+            <span class="speed">Slow</span>
+            <span class="cost">0.00214ETH</span>
+            <span class="radio">
+              <input type="radio" name="slow">
+            </span>
+          </div>
+          <div class="choose_speed">
+            <span class="speed">Average</span>
+            <span class="cost">0.00423ETH</span>
+            <input type="radio" name="average">
+          </div>
+          <div class="choose_speed">
+            <span class="speed">Fast</span>
+            <span class="cost">0.00613ETH</span>
+            <input type="radio" name="fast">
+          </div>
+          <div class="advanced_options">
+            <button class="next">Next</button>
+            <button class="cancel">Cancel</button>
+          </div>
+        </div>
+        </div>
+      </form>
+
     </div>
   </body>
 </html>
