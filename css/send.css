@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 * {
   border: none;
   margin: 0;
@@ -15,6 +15,8 @@
   border: 1px solid #d9d9d9;
   overflow: hidden;
   font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .container {
@@ -121,7 +123,7 @@ header .background {
   height: 425px;
   margin: -10px 23px 0 24.8px;
   overflow-y: scroll;
-  overflow-x: hidden;
+  
 
 }
 .form-container::-webkit-scrollbar {
@@ -147,20 +149,22 @@ header .background {
   color:#434343;
   font-size:18px;
 }
+#add_rec{
+  padding-top: 0px;
+}
 #assets {
-  
-  height: 26px;
+  cursor: pointer;
+  margin-top:5px;
+ height:55px;
   font-size: 20px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 0.9;
-  letter-spacing: normal;
-  text-align: left;
   color: #707070;
-/*  appearance: none;*/
 }
-
+#disabled_option{
+  color:#757575;
+  font-size: 14px;
+  
+}
 
 #assets:focus{ outline: none;}
 input:focus { outline: none; }
@@ -171,15 +175,19 @@ input::-webkit-inner-spin-button {
 }
 
 option{
-  margin: 50px;
+  display:block;
+  padding: 20px;
+  font-size:18px;
 }
 
 #amount_of_assets{
   font-size: 18px;
   color:#434343;
+  height: 55px;
 }
 .trans_fee{
   height: 26px;
+  width:310px;
   font-size: 20px;
   margin-top: 37.5px;
   font-weight: 500;
@@ -196,5 +204,80 @@ option{
 }
 .choose_speed{
   display: grid;
-  
+  grid-template-columns: 173.3px 79px 83px ;
+  font-size:16px;
+  color:#707070;
+  position :relative;
+  height:26px;
+  margin:12.5px;
+  font-weight: bold;
+
 }
+.cost{
+  margin-left: -25px;
+  color:#707070;
+  font-size:16px;
+  font-weight: light;
+}
+.radio{
+  position: absolute;
+  transform : translate(270px);
+ 
+}
+
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  padding: 6px;
+  background-clip: content-box;
+  border: 2px solid #bbbbbb;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+  background-color: #4e6c9b
+  ;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+
+.svg{
+  margin-left:105px;
+}
+
+
+button{
+  width: 300px;
+  height: 50px;
+  border:2px solid #f3c2cc;
+  
+  background-color: white;
+  font-size: 18px;
+  color:#f3c2cc;
+  display: block;
+}
+#next:hover{
+  color: #1d1d1d;
+  background-color:#edb3bf;
+}
+#next{
+  margin-top:24px;
+}
+#cancel{
+  
+  border : none;
+  color: #1d1d1d;
+  margin-bottom: 15px;
+}
+
+
