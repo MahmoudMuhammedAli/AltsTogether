@@ -21,7 +21,17 @@
               <div class="account-symbol"></div>
               <div class="account-name">Robesten</div>
               <div class="arrow">
-                <img src="images/arrow-rigth.svg" alt="arrow-rigth" />
+                <svg xmlns="http://www.w3.org/2000/svg" width="8.936" height="15.043" viewBox="0 0 8.936 15.043">
+                  <g id="Group_10642" data-name="Group 10642" transform="translate(7.521 1.414) rotate(90)">
+                    <g id="Group_10303" data-name="Group 10303" transform="translate(6.107 0) rotate(45)">
+                      <line id="Line_14" data-name="Line 14" y1="8.637" transform="translate(0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                    </g>
+                    <g id="Group_10304" data-name="Group 10304" transform="translate(12.214 6.107) rotate(135)">
+                      <line id="Line_14-2" data-name="Line 14" y2="8.637" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+                    </g>
+                  </g>
+                </svg>
+                
               </div>
             </div>
             <div class="customer-status">Connected</div>
@@ -40,19 +50,21 @@
           Add Recipient
         </label>
         <input type="text" name="add_recipient" value="0x42Be..5F53" id="add_rec">
-        <br/>
+        
         <label for="assets" id="assets_lbl"></label>
+      <div class="selectdiv">
         <select name="assets" id="assets">
-          <option id="disabled_option" value="">assets</option>
+          <option id="disabled_option" value="">Assets</option>
           <option value="eth">ETH</option>
           <option value="polkadot">Polkadot</option>
           <option value="cardono">Cardono</option>
         </select>
-        <br>
-        <label for="amount" class="amount">Amount of assets</label>
-        <input type="number" name="amount_of_assets" id="amount_of_assets">
-        <br/>
-        <p class="tras_fee">
+      </div>
+        
+        <label for="amount" class="amount"></label>
+        <input type="text" name="amount_of_assets" id="amount_of_assets" value="Amount of Assets">
+       
+        <p class="trans_fee">
           Transaction fee
         </p>
         <div class="radio_holder">

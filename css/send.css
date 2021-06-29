@@ -120,10 +120,15 @@ header .background {
   width: 312.3px;
   height: 425px;
   margin: -10px 23px 0 24.8px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 
 }
+.form-container::-webkit-scrollbar {
+  display: none;
+}
 
-#add_rec_lbl{
+#add_rec_lbl , label{
   width: 78px;
   height: 18px;
   font-size: 14px;
@@ -135,11 +140,61 @@ header .background {
 
 }
 
-#add_rec{
+#add_rec, input , select{
   width: 310px;
   height: 42px;
   border-bottom: 1px solid #c4c4c4;
   color:#434343;
   font-size:18px;
 }
-#add_rec:focus { outline: none; }
+#assets {
+  
+  height: 26px;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.9;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+/*  appearance: none;*/
+}
+
+
+#assets:focus{ outline: none;}
+input:focus { outline: none; }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+option{
+  margin: 50px;
+}
+
+#amount_of_assets{
+  font-size: 18px;
+  color:#434343;
+}
+.trans_fee{
+  height: 26px;
+  font-size: 20px;
+  margin-top: 37.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.9;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4e6c9b;
+}
+.radio_holder{
+  display: flex;
+  flex-direction:column;
+}
+.choose_speed{
+  display: grid;
+  
+}
