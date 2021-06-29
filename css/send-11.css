@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 * {
   border: none;
   margin: 0;
@@ -15,8 +14,138 @@
   border: 1px solid #d9d9d9;
   overflow: hidden;
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
-
+  position: relative;
+  font-family: 'Poppins', sans-serif;
 }
 
+h1{
 
+  margin: 0 13px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #4e6c9b;
+  margin-top:  38px;
+}
+.new_qut{
+  width: 360px;
+  display: flex;
+  font-size:14px;
+  font-weight: lighter;
+  text-align: center;
+  color:#5f6366;
+  padding-left: 90px;
+}
+#secs_left{
+  padding-left: 9px;
+
+  color:#4e6c9b
+}
+
+#no_content{
+  width: 357px;
+  height: 68px;
+  background-color: #4e6c9b;
+  margin-top:53px;
+}
+
+#circle{
+  text-align: center;
+  width: 148.9px;
+  height: 148.9px;
+  border: solid 1px #ebebeb;
+  background-color: #4e6c9b;
+  border-radius:50%;
+  color:white;
+  position:absolute;
+  top: 105px;
+  right:106px;
+  padding-top: 20px;
+}
+#convert{
+  font-size: 14px;
+  font-weight:light;
+}
+#amount_from{
+  font-weight: bold;
+}
+#amount_to{
+  font-size: 24px;
+
+}
+#currency{
+  font-size: 18px;
+  font-weight:light;
+}
+#cur_2_cur{
+  margin-top:40px;
+  display : flex;
+  justify-content:space-around;
+  margin:40px 25px;
+  padding-left: 35px ;
+  padding-right:35px;
+  color: #4e6c9b;
+  font-size:14px;
+
+}
+#eth, #zrx{
+  display: flex;
+}
+#ran ,#ran2{
+  margin-top:8px;
+}
+.main_text{
+
+  font-size: 16px;
+  font-weight: bold;
+  color: #4e6c9b;
+}
+
+.secondary_text{
+  font-size: 16px;
+  color: #707070;
+}
+#using_the_best{
+  display:flex;
+  justify-content:space-between;
+  margin:30px 25px 20px 36px;
+}
+
+#container{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin:0px 25px 20px 36px;
+  background-color: #fbfbfb;
+}
+#container div{
+  
+}
+#four_qut{
+  cursor: pointer;
+}
+#four_qut:hover{
+  color:#1fb9a3;
+}
+#edit{
+  font-size: 14px;
+  color: #707070;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.sec2{
+  margin-left: 105px;
+}
+
+button{
+  width: 310px;
+  height: 50px;
+  margin-left: 25px;
+  margin-right:25px;
+  margin-top:20px;
+  padding: 13.4px 109px 13.6px;
+  border-radius: 12px;
+  background-color: #1fb9a3;
+  color: #fff;
+  
+}
