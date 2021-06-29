@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8.736" height="8.736" viewBox="0 0 8.736 8.736">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#edb3bf;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Group_10729" transform="translate(4.368 -2.368) rotate(45)">
+        <g id="Group_10303" transform="translate(4.763 0) rotate(45)">
+            <path id="Line_14" d="M0 6.736L0 0" class="cls-1" transform="translate(0)"/>
+        </g>
+        <g id="Group_10304" transform="translate(9.527 4.763) rotate(135)">
+            <path id="Line_14-2" d="M0 0L0 6.736" class="cls-1" transform="translate(0 0)"/>
+        </g>
+    </g>
+</svg>
