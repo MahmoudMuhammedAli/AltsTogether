@@ -20,17 +20,6 @@
   padding:26px;
 }
 
-header nav { 
-  display: flex;
-  justify-content: space-between;
-
-}
-.nav_ico{
-  width: 160px;
-}
-.nav-icons{
-  margin-left:10.3px;
-}
 .back {
   margin-top: 20px;
   cursor: pointer;
@@ -40,18 +29,88 @@ header nav {
   text-decoration: none;
   color: white;
 }
+.search{ 
+  border-bottom: 2px solid #6f6f6f;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+.searchbar{
+  background-color:#5F6366;
+  width: 165.5px;
+  height: 36px;
+  color:white;
+  border-left:2px solid #a8a8a8;
+  padding-left:10px;
+  font-size:18px;
+  margin-left: 5px;
+}
+input:focus{
+outline:none;
+}
+input::placeholder{
+  color: white;
+}
+.prices{
+  display:flex;
+  flex-direction:column;
+  
+}
+.prices_grid_items{
+  display:flex;
+  margin-top: 24px;
+}
+.right{
+  margin-left:10px;
+  width:179px;
+}
+.left{
+  text-align:right;
+  width:fit-content;
+  
+}
+.primary_text{
+
+display:block;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.22;
+  color: #99ced3;
+}
+.sec_text{
+
+  font-size: 12px;
+  font-weight: 100;
+  text-align: left;
+  color: #fbfbfb;
+}
+
+.crypto{
+  font-size:16px;
+  
+}
+.money{
+  font-size:14px;
+}
+
+
 
 main::after {
   position: absolute;
   left: 0;
-  top:492px;
+  top:508px;
   content: " ";
   display: block;
   height: 40px;
-  border-bottom: 2px solid #a8a8a8
+  border-bottom: 3px solid #a8a8a8
   ;
   width: 100%;
 
 }
-
-
+footer{
+  margin-top: 23px;
+}
+.footer_text{
+  color:#fbfbfb;
+  font-size:14px;
+  cursor: pointer;
+}

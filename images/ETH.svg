@@ -43,7 +43,7 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <rect id="Rectangle_1613" data-name="Rectangle 1613" width="44" height="44" rx="7" fill="#edb3bf"/>
+  <rect id="Rectangle_1613" data-name="Rectangle 1613" width="44" height="44" rx="7" fill="#99ced3"/>
   <g id="Rectangle_1614" data-name="Rectangle 1614" transform="translate(2 2)" fill="#5f6366" stroke="#fff" stroke-width="2">
     <rect width="40" height="40" rx="7" stroke="none"/>
     <rect x="1" y="1" width="38" height="38" rx="6" fill="none"/>
