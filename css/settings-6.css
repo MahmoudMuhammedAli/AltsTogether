@@ -34,13 +34,12 @@
   cursor: pointer;
 }
 #contact_list {
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in;
   cursor: pointer;
-  height: 65px;
 }
 #contact_list:hover {
-  border: 5px solid #9acdd1;
-  border-radius: 15px;
+  border: 4px solid #9acdd1;
+  border-radius: 12px;
 }
 .main_text {
   font-size: 20px;
