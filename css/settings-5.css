@@ -68,6 +68,7 @@
   border-radius: 5px;
   border: solid 1px #edb3bf;
   background-color: #505355;
+
 }
 .col-2{
   width:180px;
@@ -80,5 +81,19 @@
 .eth{
   font-size: 14px;
   color: #ffffff76;
-  width:80px
+  width:80px;
+  transition:.3s ease-in-out;
+}
+.arrow{
+  margin-left: 10px;
+  transition:.3s ease-in-out;
+
+}
+.contact:hover .arrow {
+  margin-left:25px;
+
+
+}
+.contact:hover .eth{
+  color:#9acdd1;
 }
