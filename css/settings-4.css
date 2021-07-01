@@ -32,71 +32,53 @@
 }
 .new_contact {
   font-size: 20px;
-  color: #9acdd1ac;
+  color: #9acdd1;
   display: flex;
   justify-content: space-between;
-  margin-top:20px;
+  margin-top: 15px;
 }
-#add_contact {
-  font-size: 16px;
-  font-weight:lighter;
-  color:rgba(255, 255, 255, 0.775);
+input  {
+  height: 55px;
+  color: rgb(255, 255, 255);
+  background-color:#5f6366;
+  font-size: 18px;
+  font-weight: 500;
 }
-
-.main_text {
-  font-size: 20px;
-  font-weight: normal;
-  text-align: left;
-  color: #ffffff;
-}
-
-.sec_text {
-  margin-top: 6px;
-  font-size: 14px;
-  text-align: center;
-  color: #ffffff;
-}
-.contacts{
-  display:flex;
-  flex-direction:column;
-}
-
-
-.contact{
-  display:flex;
-  margin-top: 11px;
-  padding: 10px 23.9px 10px 10px;
-  border-radius: 5px;
-  border: solid 1px #edb3bf;
-  background-color: #505355;
+#add_rec{
+  margin-top:45px ;
+  width: 310px;
+  border-bottom: 1px solid #c4c4c4;
 
 }
-.col-2{
-  width:180px;
-  margin-left: 10px;
-  display : flex;
-  flex-direction:column;
+.eth_address{
+  margin-top:47px;
+  border-bottom: 1px solid #c4c4c4;
 }
-.name{
-  color: #ffffff;
-  color: #ffffff;
+#eth_address_input{
+  margin-left: 5px;
 }
-.eth{
-  font-size: 14px;
-  color: #ffffff76;
-  width:px;
-  transition:.3s ease-in-out;
-}
-.arrow{
-  margin-left: 15px;
-  transition:.3s ease-in-out;
 
+input::placeholder{
+  color: rgba(255, 255, 255, 0.836);
 }
-.contact:hover .arrow {
-  margin-left:25px;
+input:focus {
+  outline: none;
+}
 
 
+.add{ 
+  width: 310px;
+  height: 50px;
+  padding: 13.4px 140px 13.6px;
+  border-radius: 12px;
+  background-color: #1fb9a3;
+  margin-top: 121px;
+  font-size: 18px;
+  color:white;
+  cursor: pointer;
 }
-.contact:hover .eth{
-  color:#9acdd1;
+.add:hover{
+  background-color: azure;
+  color:#1fb9a3;
+  border:3px solid #1fb9a3;
 }
