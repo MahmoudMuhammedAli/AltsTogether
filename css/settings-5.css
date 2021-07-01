@@ -32,7 +32,7 @@
 }
 .new_contact {
   font-size: 20px;
-  color: #9acdd1;
+  color: #9acdd1ac;
   display: flex;
   justify-content: space-between;
   margin-top:20px;
@@ -40,6 +40,7 @@
 #add_contact {
   font-size: 16px;
   font-weight:lighter;
+  color:rgba(255, 255, 255, 0.775);
 }
 
 .main_text {
@@ -63,7 +64,7 @@
 
 .contact{
   display:flex;
-  margin-top: 20px;
+  margin-top: 11px;
   padding: 10px 23.9px 10px 10px;
   border-radius: 5px;
   border: solid 1px #edb3bf;
@@ -73,6 +74,8 @@
 .col-2{
   width:180px;
   margin-left: 10px;
+  display : flex;
+  flex-direction:column;
 }
 .name{
   color: #ffffff;
@@ -81,11 +84,11 @@
 .eth{
   font-size: 14px;
   color: #ffffff76;
-  width:80px;
+  width:px;
   transition:.3s ease-in-out;
 }
 .arrow{
-  margin-left: 10px;
+  margin-left: 15px;
   transition:.3s ease-in-out;
 
 }
