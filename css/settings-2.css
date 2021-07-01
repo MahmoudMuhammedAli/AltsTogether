@@ -1,0 +1,31 @@
+
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 360px;
+  height: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+  font-size: 18px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  background-color: #5F6366;
+  padding:26px;
+}
+
+.back {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.back a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
