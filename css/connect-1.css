@@ -16,10 +16,12 @@
   position: relative;
   font-family: "Poppins", sans-serif;
   background-color: #5f6366;
-  padding: 26px;
   color:white;
 }
 
+header{
+  padding:26px;
+}
 .back {
   margin-top: 20px;
   cursor: pointer;
@@ -35,12 +37,14 @@
   font-size: 18px;
   font-weight: normal;
   color: #99ced3;
+  margin: 20px 26px 0px 26px;
 }
 .main_paragraph {
   font-size: 11px;
   font-weight: normal;
   color: #ffffffdb;
   margin-top: 10px;
+  margin: 10px 26px 0px 26px;
 }
 .plan-choice{
   display:flex;
@@ -50,7 +54,8 @@
   padding: 4px 39px 4px 4px;
   background-color: #1fb9a3;
 
-  margin-top: 20px;
+
+  margin: -10px 26px 0px 26px;
 }
 .choice{
   width: 144px;
@@ -78,10 +83,8 @@
 
 
 .scrollable_div{
-  max-height:410px;
+  max-height:415px;
   overflow: scroll;
-  margin-top :18px;
-
 }
 .scrollable_div::-webkit-scrollbar {
   display: none;
@@ -90,8 +93,7 @@
 .speed{
   display: flex;
   justify-content:space-between;
-  margin-top:20px;
-}
+  margin: 20px 26px 0px 26px;}
 .option{
   width: 148px;
   height: 90px;
@@ -125,8 +127,37 @@
   text-align: left;
   color: #9acdd1;
 
-  margin-top: 20px;
+  margin: 25px 26px 0px 26px;}
+
+
+
+
+.invoice{
+  margin-top:18px;
+  width: 360px;
+  height: 127px;
+  position :relative;
+  background-color: #636669;
+  font-size:16px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+
 }
+.line{
+  display:flex;
+  justify-content:space-between;
+  margin: 0px 26px 0px 26px;
+  
+}
+
+.fee ,.new_total{
+  color:#9acdd1
+  ;
+}
+
+
+
 
 .create{
   width: 310px;
@@ -138,8 +169,7 @@
   color:white;
   font-size:18px;
   transition:.5s ease-in-out;
-  margin-bottom: 70px;
-}
+  margin: 30px 26px 30px 26px;}
 .create:hover{
 color:#EDB3BF;
 background-color: white;
