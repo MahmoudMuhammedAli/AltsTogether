@@ -1,0 +1,84 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 360px;
+  height: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+  font-size: 18px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background-color: #5f6366;
+  padding: 26px;
+}
+
+.back {
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.back a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+.new_contact {
+  font-size: 20px;
+  color: #9acdd1;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+input  {
+  height: 55px;
+  color: rgb(255, 255, 255);
+  background-color:#5f6366;
+  font-size: 18px;
+  font-weight: 500;
+}
+#add_rec{
+  margin-top:45px ;
+  width: 310px;
+  border-bottom: 1px solid #c4c4c4;
+
+}
+.eth_address{
+  margin-top:47px;
+  border-bottom: 1px solid #c4c4c4;
+}
+#eth_address_input{
+  margin-left: 5px;
+}
+
+input::placeholder{
+  color: rgba(255, 255, 255, 0.836);
+}
+input:focus {
+  outline: none;
+}
+
+
+.add{ 
+  width: 310px;
+  height: 50px;
+  padding: 13.4px 140px 13.6px;
+  border-radius: 12px;
+  background-color: #1fb9a3;
+  margin-top: 121px;
+  font-size: 18px;
+  color:white;
+  cursor: pointer;
+}
+.add:hover{
+  background-color: azure;
+  color:#1fb9a3;
+  border:3px solid #1fb9a3;
+}
