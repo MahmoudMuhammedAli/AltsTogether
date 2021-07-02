@@ -1,0 +1,141 @@
+
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 360px;
+  height: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+  font-size: 18px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  background-color: #5F6366;
+  padding:26px;
+}
+
+.back {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.back a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.main_text{
+  margin-top:10px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #99ced3;
+}
+.main_paragraph{
+ 
+  font-size: 15px;
+  font-weight: normal;
+  color: #ffffff;
+  margin-top:18px;
+
+}
+
+.white-container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:25px;
+
+
+}
+.white-section{
+  background-color: #f9f9f9;
+    text-align: center;
+  width: 148px;
+  height: 114px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+.white-section:hover{
+  border: 3px solid #EDB3BF;
+}
+.illustration{
+  color: #4e6c9b;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+
+.create{
+  width: 310px;
+  height: 50px;
+  padding: 13.4px 131px 13.6px;
+  background-color: #1fb9a3;
+  border-radius:13px;
+  margin-top:32px;
+  color:white;
+  font-size:18px;
+  transition:.5s ease-in-out;
+}
+.create:hover{
+color:#EDB3BF;
+background-color: white;
+border: 3px solid #EDB3BF ;
+border-radius: 0px;;
+}
+.no-wallet{
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top:20px;
+
+}
+.order-one{
+  color: #f5f5f5;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top:15px;
+
+}  
+.inline-text{
+  font-weight: bold;
+  color: #99ced3;
+}
+
+
+
+
+main::after {
+  position: absolute;
+  left: 0;
+  top:510px;
+  content: " ";
+  display: block;
+  height: 40px;
+  border-bottom: 3px solid #a8a8a8
+  ;
+  width: 100%;
+
+}
+footer{
+  position: absolute;
+  bottom: 10px;
+}
+.footer_text{
+  color:#fbfbfb;
+  font-size:14px;
+}
+.clickable_text{
+  color: #99ced3;
+  font-weight: 500;
+  cursor: pointer;
+}
