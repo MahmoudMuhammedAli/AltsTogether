@@ -1,0 +1,185 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 360px;
+  height: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+  font-size: 18px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background-color: #5f6366;
+  padding: 26px;
+}
+
+.back {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.back a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.main_text {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #99ced3;
+}
+.main_paragraph {
+  font-size: 12px;
+  font-weight: normal;
+  color: #ffffffdb;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+
+.scrollable_div{
+  max-height:400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  margin-top :0px;
+  padding-bottom:45px ;
+
+}
+.scrollable_div::-webkit-scrollbar {
+  display: none;
+}
+
+ input {
+  width: 305px;
+  height: 42px;
+  background-color: #5f6366;
+  border-bottom: 1px solid #c4c4c4;
+  color:#434343;
+  font-size:18px;
+  margin-top:35px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.select_lbl{
+  color: white;
+  font-size:16px;
+  display:none;
+}
+
+input:focus { outline: none; }
+
+
+input::placeholder {
+  color: white;
+}
+
+
+.chain_id_holder{
+  position:relative;
+}
+
+
+/*HOVER INFO*/
+.info{
+  display:flex;
+  justify-items: center;
+
+  display: inline-block;
+  background-color:white;
+  width:15px;
+  height: 15px;
+  text-align: center;
+  border-radius:50%;
+  font-size: 10px;
+  color: #4d4d4d;
+  font-weight: 500;
+  line-height:1.6;
+  position: absolute;
+  transform: translate(-220px,42px);
+  transition:.5s ease-in-out;
+  cursor:help;
+}
+
+
+
+/*TOOLTIP*/
+
+.tooltip{
+  visibility: hidden;
+  opacity:0;
+  z-index: 1;
+  transition: .5s ease-in-out;
+}
+.tri {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgb(255, 255, 255);
+  position:absolute;
+  transform:translate(82px,-45px)
+}
+
+.tooltiptext{
+  position:absolute;
+  text-align:left;
+  font-size:10px;
+  width:160px;
+  color:rgb(0, 0, 0);
+  background-color:#ffffff;
+  border-radius: 5px;
+  padding:5px;
+  transform: translate(10px,-169px);
+  
+}
+
+.i:hover .tooltip{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+main::after {
+  position: absolute;
+  left: 0;
+  top: 510px;
+  content: " ";
+  display: block;
+  height: 40px;
+  border-bottom: 3px solid #a8a8a8;
+  width: 100%;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  width:360px;
+  height:45px;
+  background-color: #5f6366;
+  padding-top: 5px;
+
+}
+.footer_text {
+  color: #fbfbfb;
+  font-size: 14px;
+}
+.clickable_text {
+  color: #99ced3;
+  font-weight: 500;
+  cursor: pointer;
+}

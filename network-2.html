@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/network-2.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header>
+        <nav>
+          <span class="logo">
+            <img src="./images/logo.svg" alt="Logo" />
+          </span>
+        </nav>
+        <div class="back">
+          <img src="./images/white-arrow-left.svg" alt="" />
+          <a href="#">Back</a>
+        </div>
+      </header>
+      <main>
+        <h1 class="main_text">Custom RPC</h1>
+        <div class="scrollable_div">
+          <p class="main_paragraph">
+            A malicious network provider can lie about the state of the blockchain and record your network activity. Only add custom networks you trust.
+          </p>
+         
+          <input type="text" name="Network_name" id="Network_name" class="inputs" placeholder="Network Name">
+          <input type="text" name="New_RPC_URL" id="New_RPC_URL" class="inputs" placeholder="New RPC URL">
+         <div class="chain_id_holder">
+           <input type="text" name="Chain_id" id="Chain_id" class="inputs" placeholder="Chain ID">
+          <span class="i">
+           <span class="info">i</span>
+           <div class="tooltip">
+             <span class="tooltiptext">The chain ID is used for signing transactions. It must match the chain ID returned by the network. You can enter a decimal or '0x'-prefixed hexadecimal number, but we will display the number in decimal.</span>
+             <span class="tri"></span>
+          </div>
+        </span> 
+        </div>
+          <input type="text" name="currency_symbol" id="currency_symbol" class="inputs" placeholder="Currency Symbol (optional)">
+          <input type="text" name="block_explorer_url" id="block_explorer_url" class="inputs" placeholder="Block Explorer URL (optional)">
+ 
+        </div>
+      <footer>
+        <code class="footer_text">Need help?</code>
+        <code class="footer_text clickable_text"
+          >Contact AlsTogether Support</code
+        >
+      </footer>
+    </div>
+  </body>
+</html>
