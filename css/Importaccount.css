@@ -45,7 +45,8 @@
 
 .scrollable_div{
   max-height:341.58px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   margin-top :18px;
 
 }
@@ -74,6 +75,7 @@ select{
   appearance: none;
   color:white;
   background: url(../images/arrow-right-grey.svg) 96% / 3% no-repeat #5f6366;
+  margin-bottom:50px;
 }
 input:focus { outline: none; }
 
@@ -85,26 +87,20 @@ input::placeholder {
   color: white;
 }
 
-.button_lbl{
-  color:white;
-  display:block;
-  margin-top: 40px;
-  font-size: 18px;
-  font-weight: 400;
+
+.private_lbl{
+display: block;
+  color:rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(199, 198, 198);
+  padding-bottom: 68px;
+
 }
-#choose_btn{
-  width: 139px;
-  height: 41px;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  background-color: #ffffff;
-  color: #707070;
-  font-size: 14px;
-  font-weight: 500;
-  margin-top:20px;
+
+#private-key{
+  display:none;
 }
-#password{
+
+#private-key{
   margin-top:50px;
 }
 .create{
@@ -113,11 +109,10 @@ input::placeholder {
   padding: 13.4px 131px 13.6px;
   background-color: #1fb9a3;
   border-radius:13px;
-  margin-top:50px;
+  margin-top:60px;
   color:white;
   font-size:18px;
   transition:.5s ease-in-out;
-  margin-bottom: 70px;
 }
 .create:hover{
 color:#EDB3BF;
