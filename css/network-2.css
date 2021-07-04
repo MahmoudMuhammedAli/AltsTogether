@@ -36,31 +36,37 @@
   color: #99ced3;
 }
 .main_paragraph {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: normal;
   color: #ffffffdb;
-  margin-top: 18px;
+  margin-top:15px;
+  margin-bottom:15px;
 }
 
 
 .scrollable_div{
-  max-height:341.58px;
+  max-height:400px;
   overflow-y: scroll;
   overflow-x: hidden;
-  margin-top :18px;
+
+  margin-top :0px;
+  padding-bottom:45px ;
 
 }
 .scrollable_div::-webkit-scrollbar {
   display: none;
 }
 
- input , select{
+ input {
   width: 305px;
   height: 42px;
   background-color: #5f6366;
   border-bottom: 1px solid #c4c4c4;
   color:#434343;
   font-size:18px;
+  margin-top:35px;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .select_lbl{
@@ -68,64 +74,76 @@
   font-size:16px;
   display:none;
 }
-select{
-  margin-top:10px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  color:white;
-  background: url(../images/arrow-right-grey.svg) 96% / 3% no-repeat #5f6366;
-  margin-bottom:50px;
-}
+
 input:focus { outline: none; }
 
-select:focus {
-  outline: none;
 
-}
 input::placeholder {
   color: white;
 }
 
 
-.private_lbl{
-display: block;
-  color:rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(199, 198, 198);
-  padding-bottom: 68px;
-
+.chain_id_holder{
+  position:relative;
 }
 
-#private-key{
-  display:none;
-}
 
-#private-key{
-  margin-top:50px;
-}
-.create{
-  width: 310px;
-  height: 50px;
-  padding: 13.4px 131px 13.6px;
-  background-color: #1fb9a3;
-  border-radius:13px;
-  margin-top:60px;
-  color:white;
-  font-size:18px;
+/*HOVER INFO*/
+.info{
+  display: inline-block;
+  background-color:white;
+  width:15px;
+  height: 15px;
+  text-align: center;
+  border-radius:50%;
+  font-size: 12px;
+  color: #4d4d4d;
+  line-height: 1.5;
+  font-weight: 500;
+  position: absolute;
+  transform: translate(-220px,42px);
+
   transition:.5s ease-in-out;
-}
-.create:hover{
-color:#EDB3BF;
-background-color: white;
-border: 3px solid #EDB3BF ;
-border-radius: 0px;;
+  cursor:help;
 }
 
 
 
+/*TOOLTIP*/
 
+.tooltip{
+  visibility: hidden;
+  opacity:0;
+  z-index: 1;
+  transition: .5s ease-in-out;
+}
+.tri {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgb(255, 255, 255);
+  position:absolute;
+  transform:translate(82px,-45px)
+}
 
+.tooltiptext{
+  position:absolute;
+  text-align:left;
+  font-size:10px;
+  width:160px;
+  color:rgb(0, 0, 0);
+  background-color:#ffffff;
+  border-radius: 5px;
+  padding:5px;
+  transform: translate(10px,-169px);
+  
+}
 
+.i:hover .tooltip{
+  visibility: visible;
+  opacity: 1;
+}
 
 
 
