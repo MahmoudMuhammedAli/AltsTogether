@@ -90,19 +90,21 @@ input::placeholder {
 
 /*HOVER INFO*/
 .info{
+  display:flex;
+  justify-items: center;
+
   display: inline-block;
   background-color:white;
   width:15px;
   height: 15px;
   text-align: center;
   border-radius:50%;
-  font-size: 12px;
+  font-size: 10px;
   color: #4d4d4d;
-  line-height: 1.5;
   font-weight: 500;
+  line-height:1.6;
   position: absolute;
   transform: translate(-220px,42px);
-
   transition:.5s ease-in-out;
   cursor:help;
 }
