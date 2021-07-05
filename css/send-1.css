@@ -6,6 +6,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+.main_color{
+  color:#4e6c9b;
+  font-weight: bold;
+}
+.sec_color{
+  color:#707070;
+}
 
 .page {
   width: 360px;
@@ -112,12 +119,96 @@ header .background {
   display:flex;
   flex-direction:column;
   justify-content:center;
-  padding:44px 25px 21px 25px;
+  padding:30px 25px 21px 25px;
   font-size:18px
 }
 .add p {
   font-weight: bolder;
 }
+
+
+.address_from{
+  font-size: 14px;
+  font-weight:bold;
+  text-align: center;
+}
+.address{
+  font-size: 12px;
+  text-align: center;
+}
+
+.fromTo{
+  margin-top:25px;
+  display:grid;
+  grid-template-columns: 3fr 1fr 3fr;
+}
+.from_cont, .trans_cont, .to_cont{
+  text-align:center;
+}
+.trans_cont{
+  padding-top:10px;
+}
+
+.send{
+  text-align: center;
+  font-size:16px;
+}
+.amount{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.main-section{
+  padding:0px 24px 20px 26px;
+}
+
+
+.row{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns:1fr 1.5fr
+}
+
+.number{
+  text-align: right;
+  font-size: 20px;
+  font-weight: 900;
+  
+}
+
+.gas{
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  
+}
+
+
+
+
+.conv_rate{
+  font-size: 13px;
+  text-align: right;
+}
+
+.sec_text{
+  font-size: 14px;
+  margin-left: 10px;
+  text-align: left;
+  
+}
+
+
+
+
+
+
+
 
 
 button{
@@ -131,7 +222,8 @@ button{
 }
 #next:hover{
   color: #1d1d1d;
-  background-color:#edb3bf;
+  background-color:#ffffff;
+  border: 2px solid  #1fb9a3;
 }
 #next{
   margin-top:24px;
@@ -139,6 +231,7 @@ button{
   height: 50px;
   padding: 13.4px 127px 13.6px;
   border-radius: 9px;
+  margin-left:-5px;
   background-color: #1fb9a3;
 }
 #cancel{
@@ -147,9 +240,4 @@ button{
   color: #1d1d1d;
   margin-bottom: 15px;
 }
-.main_color{
-  color:#4e6c9b;
-}
-.sec_color{
-  color:#707070;
-}
+
