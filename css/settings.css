@@ -32,7 +32,7 @@
 }
 .new_contact {
   font-size: 20px;
-  color: #9acdd1ac;
+  color: #9acdd1;
   display: flex;
   justify-content: space-between;
   margin-top:20px;
@@ -44,7 +44,7 @@
 }
 
 .main_text {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
   text-align: left;
   color: #ffffff;
@@ -60,26 +60,42 @@
   display:flex;
   flex-direction:column;
 }
+.scrollable_div{
+  max-height:430px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top :0px;
+  padding-bottom: 60px;
 
+}
+.scrollable_div::-webkit-scrollbar {
+  display: none;
+  
+}
 
 .contact{
   display:flex;
   margin-top: 11px;
   padding: 10px 23.9px 10px 10px;
   border-radius: 5px;
-  border: solid 1px #edb3bf;
-  background-color: #505355;
+  border: solid 1px #99ced3;
+  background-color: #5f6366;
+  cursor: pointer;
+  min-height: 84px;
 
 }
 .col-2{
-  width:180px;
+  width:230px;
   margin-left: 10px;
   display : flex;
   flex-direction:column;
 }
 .name{
   color: #ffffff;
-  color: #ffffff;
+  font-weight: lighter;
+  height:30px;
+  
+  transition:.3s ease-in-out;
 }
 .eth{
   font-size: 14px;
@@ -92,11 +108,19 @@
   transition:.3s ease-in-out;
 
 }
+.contact:hover{
+  border: solid 1px #edb3bf;
+  background-color: #505355;
+}
 .contact:hover .arrow {
   margin-left:25px;
 
 
 }
+.contact:hover .name{
+ color: #f37790;
+ font-size:20px;
+}
 .contact:hover .eth{
-  color:#9acdd1;
+ color: #f7f7f7;
 }
