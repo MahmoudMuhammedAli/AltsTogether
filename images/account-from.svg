@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Group_10518" data-name="Group 10518" transform="translate(-1729.991 -162)">
+    <rect id="Rectangle_1613" data-name="Rectangle 1613" width="40" height="40" rx="7" transform="translate(1729.991 162)" fill="#1fb9a3"/>
+    <g id="Rectangle_1614" data-name="Rectangle 1614" transform="translate(1730.991 163)" fill="#fff" stroke="#1fb9a3" stroke-width="2">
+      <rect width="38" height="38" rx="7" stroke="none"/>
+      <rect x="1" y="1" width="36" height="36" rx="6" fill="none"/>
+    </g>
+    <g id="Group_10731" data-name="Group 10731" transform="translate(-1801.727 2432.843)">
+      <path id="Path_1215" data-name="Path 1215" d="M519.513,597.264s-5.459,5.88-7.682,8.193c-.773.8-1.284.983-2.148.075-2.288-2.4-7.831-8.306-7.831-8.306l3.934-3.917s2.65,2.821,3.984,4.254c.784.842,1.242.9,2.1.045,1.329-1.328,4.023-4.148,4.023-4.148Z" transform="translate(3041.348 -2847.751)" fill="#4e6c9b"/>
+      <rect id="Rectangle_1787" data-name="Rectangle 1787" width="5.594" height="5.594" transform="translate(3539.718 -2254.228) rotate(-43)" fill="#4d6b9a"/>
+      <rect id="Rectangle_1789" data-name="Rectangle 1789" width="5.594" height="5.594" rx="2.797" transform="translate(3548.078 -2256.26) rotate(-43)" fill="#ffce6d"/>
+      <rect id="Rectangle_1788" data-name="Rectangle 1788" width="5.228" height="5.31" transform="translate(3556.78 -2253.825) rotate(-46)" fill="#f7931a"/>
+    </g>
+  </g>
+</svg>
