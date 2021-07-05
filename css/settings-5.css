@@ -56,47 +56,28 @@
   text-align: center;
   color: #ffffff;
 }
-.contacts{
-  display:flex;
-  flex-direction:column;
+
+input {
+  width: 305px;
+  height: 42px;
+  background-color: #5f6366;
+  border-bottom: 1px solid #c4c4c4;
+  color:#434343;
+  font-size:18px;
+  margin-top:35px;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
+.select_lbl{
+  color: white;
+  font-size:16px;
+  display:none;
+}
 
-.contact{
-  display:flex;
-  margin-top: 11px;
-  padding: 10px 23.9px 10px 10px;
-  border-radius: 5px;
-  border: solid 1px #edb3bf;
-  background-color: #505355;
-
-}
-.col-2{
-  width:180px;
-  margin-left: 10px;
-  display : flex;
-  flex-direction:column;
-}
-.name{
-  color: #ffffff;
-  color: #ffffff;
-}
-.eth{
-  font-size: 14px;
-  color: #ffffff76;
-  width:px;
-  transition:.3s ease-in-out;
-}
-.arrow{
-  margin-left: 15px;
-  transition:.3s ease-in-out;
-
-}
-.contact:hover .arrow {
-  margin-left:25px;
+input:focus { outline: none; }
 
 
-}
-.contact:hover .eth{
-  color:#9acdd1;
+input::placeholder {
+  color: white;
 }
