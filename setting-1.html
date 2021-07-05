@@ -15,7 +15,7 @@
           <span class="logo">
             <img src="./images/logo.svg" alt="Logo" />
           </span>
-        </nav>
+        </nav> 
         <div class="back">
           <span>
             <img src="./images/white-arrow-left.svg" alt="" />
@@ -26,101 +26,59 @@
       <main>
         <div class="new_contact">
           <span>
-            <span>Settings</span>
+            <span>General</span>
           </span>
         </div>
         <div class="scrollable_div">
-
-        <section class="contacts">
-
-          <div class="contact">
-            <span class="col-2">
-              <p class="name">General</p>
-              <code class="eth">    
-
-                Currency conversion, primary currency, language, blockies identicon
-
-              </code>
+          <p class="main_text ">Currency Conversion</p>
+          <p class="sec_text">Updated Thu May 27 2021 04:17:30 GMT+0200 (Eastern European Standard Time) </p>
+          <input type="text" name="currency" id="currency" class="currency" placeholder="Currency">
+          <p class="main_text label">Primary Currency</p>
+          <p class="sec_text">Select native to prioritize displaying values in the native currency of the chain (e.g. ETH). Select Fiat to prioritize displaying values in your selected fiat currency.          </p>
+          <div class="choice">
+            <span class="radio">
+              <input type="radio" name="Eth" id="ETH" class="radio_btn">
+              <span class="main_text radio_text">ETH</span>
             </span>
-            <img
-              src="./images/first-page-arrow-right.svg"
-              alt=""
-              class="arrow"
-            />
           </div>
-          <div class="contact">
-            <span class="col-2">
-              <p class="name">Advanced</p>
-              <code class="eth">    
-
-                Access developer features, download State Logs, Reset Account, setup testnets and custom RPC
-              </code>
+          <div class="choice">
+            <span class="radio">
+              <input type="radio" name="Fiat" id="Fiat" class="radio_btn">
+              <span class="main_text radio_text">Fiat</span>
             </span>
-            <img
-              src="./images/first-page-arrow-right.svg"
-              alt=""
-              class="arrow"
-            />
           </div>
-          <div class="contact">
-            <span class="col-2">
-              <p class="name">Contacts</p>
-              <code class="eth">    
+          <p class="main_text label cur_lang">Current Language</p>
+          <p class="sec_text">English</p>
+          <input type="text" name="language" id="language" class="language" placeholder="Language">
 
-                Add, edit, remove, and manage your contacts
-              </code>
+
+          <div class="switch_holder">
+            <span class="main_text">Use Blockies Identicon</span>
+            <span class="switch">
+
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>              
+
             </span>
-            <img
-              src="./images/first-page-arrow-right.svg"
-              alt=""
-              class="arrow"
-            />
-          </div>
-          <div class="contact">
-            <span class="col-2">
-              <p class="name">Alerts</p>
-              <code class="eth">    
+         </div>
 
-                Enable or disable each alert
-              </code>
+
+          <div class="switch_holder">
+            <span class="main_text">Hide Tokens Without Balance</span>
+            <span class="switch">
+
+              <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>            
+
             </span>
-            <img
-              src="./images/first-page-arrow-right.svg"
-              alt=""
-              class="arrow"
-            />
-          </div>
-          <div class="contact">
-            <span class="col-2">
-              <p class="name">Networks</p>
-              <code class="eth">    
+         </div>
+          
 
-                Add and edit custom RPC networks
-              </code>
-            </span>
-            <img
-              src="./images/first-page-arrow-right.svg"
-              alt=""
-              class="arrow"
-            />
-          </div>
-          <div class="contact">
-            <span class="col-2">
-              <p class="name">About</p>
-              <code class="eth">    
-
-                Version, support center, and contact info
-              </code>
-            </span>
-            <img
-              src="./images/first-page-arrow-right.svg"
-              alt=""
-              class="arrow"
-            />
-          </div>
-
-          </div>
-        </section>
+        </div>
       </main>
     </div>
   </body>
