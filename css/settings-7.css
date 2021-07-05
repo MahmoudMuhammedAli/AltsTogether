@@ -69,10 +69,11 @@ input {
   cursor: pointer;
 }
 
-.select_lbl{
+.address_lbl{
   color: white;
   font-size:16px;
-  display:none;
+  
+  
 }
 
 input:focus { outline: none; }
@@ -81,3 +82,23 @@ input:focus { outline: none; }
 input::placeholder {
   color: white;
 }
+
+
+
+.create{ 
+  width: 310px;
+  height: 50px;
+  padding: 13.4px 140px 13.6px;
+  border-radius: 12px;
+  background-color: #1fb9a3;
+  margin-top: 121px;
+  font-size: 18px;
+  color:white;
+  cursor: pointer;
+}
+.create:hover{
+  background-color: azure;
+  color:#1fb9a3;
+  border:3px solid #1fb9a3;
+}
+
