@@ -1,6 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="7.693" height="12.558" viewBox="0 0 7.693 12.558">
-  <g id="Group_10458" data-name="Group 10458" transform="translate(1.414 11.143) rotate(-90)">
-    <line id="Line_187" data-name="Line 187" x2="4.865" y2="4.865" fill="none" stroke="#edb3bf" stroke-linecap="round" stroke-width="2"/>
-    <line id="Line_188" data-name="Line 188" x1="4.865" y2="4.865" transform="translate(4.865)" fill="none" stroke="#edb3bf" stroke-linecap="round" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="5.873" height="10.332" viewBox="0 0 5.873 10.332">
+  <g id="Group_10532" data-name="Group 10532" transform="translate(5.166 0.707) rotate(90)">
+    <g id="Group_10303" data-name="Group 10303" transform="translate(4.459 0) rotate(45)">
+      <line id="Line_14" data-name="Line 14" y1="6.306" transform="translate(0)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    </g>
+    <g id="Group_10304" data-name="Group 10304" transform="translate(8.917 4.459) rotate(135)">
+      <line id="Line_14-2" data-name="Line 14" y2="6.306" transform="translate(0 0)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="1"/>
+    </g>
   </g>
 </svg>
