@@ -1,3 +1,4 @@
+
 * {
   border: none;
   margin: 0;
@@ -18,7 +19,7 @@
   background-color: #5f6366;
   padding: 26px;
 }
-
+/*HEADER*/
 .back {
   margin-top: 20px;
   cursor: pointer;
@@ -43,13 +44,13 @@
   color:rgba(255, 255, 255, 0.775);
 }
 
+
+
+
+
+/*MAIN*/
 .main_text {
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: left;
   color: #ffffff;
 
@@ -58,19 +59,12 @@
 .sec_text {
   font-size: 11px;
   font-weight: lighter;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: left;
   color: #9acdd1ce;
   margin-top: 6px;
 
 }
-.contacts{
-  display:flex;
-  flex-direction:column;
-}
+
 .scrollable_div{
   max-height:430px;
   overflow-y: scroll;
@@ -84,60 +78,69 @@
   display: none;
   
 }
-.currency , .language{
-  width: 305px;
-  height: 42px;
-  background-color: #5f6366;
-  border-bottom: 1px solid #c4c4c4;
-  color:#434343;
-  font-size:18px;
-  padding-bottom: 10px;
-  cursor: pointer;
-  margin-top:45px;
-  margin-bottom: 20px;
-}
 
+input[type="text"]  {
+  width: 100%;
+  height: 55px;
+  color: rgb(255, 255, 255);
+  background-color:#5f6366;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid white;
+}
 
 input:focus { outline: none; }
 
-
 input::placeholder {
-  color: white;
+  color: rgba(255, 255, 255, 0.755);
 }
 
-.label{
-  margin-top: 55px;
-}
 
-.choice{
+/*sections*/
+section{
   margin-top:20px;
-  display:flex;
-  position :relative;
+  border-bottom: 1px solid #a0a0a0;
+  padding-bottom: 20px;
 }
 
-input[type="radio"]{
-width:26px;
-height: 26px;
-margin-right: 15px;
+
+
+
+
+
+
+
+/*button*/
+.main_btn{
+  width: 305px;
+  height: 50px;
+  margin: 20.6px 0 0;
+
+  border-radius: 6px;
+  border: solid 1px #9acdd1;
+  background-color: #505355;
+  transition: .4s ease-in-out;
+  /*text*/
+  font-size: 14px;
+  color: #ffffff;
 }
-.radio_text{
-margin-bottom: 20px;  
-position:absolute;
+.main_btn:hover{
+  border-radius: 0px;
+  background-color: white ; 
+  color:#9acdd1;
+  font-size: 16px;
 }
 
-p.main_text.label.cur_lang{
-  margin-top: 40px;
-} 
 
 
 
 
-
-
+/*SWITCH*/
 .switch_holder{
   display:grid;
   grid-template-columns: 5fr 1fr;
   margin-top:20px;
+  margin-bottom:10px; 
 }
 .switch {
   position: relative;
@@ -167,10 +170,10 @@ p.main_text.label.cur_lang{
 .slider:before {
   position: absolute;
   content: "";
-  height: 20px;
-  width: 20px;
-  left: 0px;
-  bottom: 0px;
+  height: 22px;
+  width: 22px;
+  left: -2px;
+  bottom:-1px;
   background-color: #9acdd1;
   -webkit-transition: .4s;
   transition: .4s;
