@@ -1,0 +1,165 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 360px;
+  height: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+  font-size: 18px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background-color: #5f6366;
+  padding: 26px;
+}
+
+.back {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.back a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.main_text {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #99ced3;
+}
+.main_paragraph {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffffdb;
+  margin-top: 18px;
+}
+
+
+.scrollable_div{
+  max-height:341.58px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top :18px;
+
+}
+.scrollable_div::-webkit-scrollbar {
+  display: none;
+}
+
+ input , select{
+  width: 305px;
+  height: 42px;
+  background-color: #5f6366;
+  border-bottom: 1px solid #c4c4c4;
+  color:#434343;
+  font-size:18px;
+}
+
+.select_lbl{
+  color: white;
+  font-size:16px;
+  display:none;
+}
+select{
+  margin-top:10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color:white;
+  background: url(../images/arrow-right-grey.svg) 96% / 3% no-repeat #5f6366;
+  margin-bottom:50px;
+}
+input:focus { outline: none; }
+
+select:focus {
+  outline: none;
+
+}
+input::placeholder {
+  color: white;
+}
+
+
+.private_lbl{
+display: block;
+  color:rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(199, 198, 198);
+  padding-bottom: 68px;
+
+}
+
+#private-key{
+  display:none;
+}
+
+#private-key{
+  margin-top:50px;
+}
+.create{
+  width: 310px;
+  height: 50px;
+  padding: 13.4px 131px 13.6px;
+  background-color: #1fb9a3;
+  border-radius:13px;
+  margin-top:60px;
+  color:white;
+  font-size:18px;
+  transition:.5s ease-in-out;
+}
+.create:hover{
+color:#EDB3BF;
+background-color: white;
+border: 3px solid #EDB3BF ;
+border-radius: 0px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main::after {
+  position: absolute;
+  left: 0;
+  top: 510px;
+  content: " ";
+  display: block;
+  height: 40px;
+  border-bottom: 3px solid #a8a8a8;
+  width: 100%;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  width:360px;
+  height:45px;
+  background-color: #5f6366;
+  padding-top: 5px;
+
+}
+.footer_text {
+  color: #fbfbfb;
+  font-size: 14px;
+}
+.clickable_text {
+  color: #99ced3;
+  font-weight: 500;
+  cursor: pointer;
+}

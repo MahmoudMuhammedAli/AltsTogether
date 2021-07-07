@@ -1,0 +1,192 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 360px;
+  height: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+  font-size: 18px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background-color: #5f6366;
+  color:white;
+}
+
+header{
+  padding:26px;
+}
+.back {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.back a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.main_text {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #99ced3;
+  margin: 20px 26px 0px 26px;
+}
+.main_paragraph {
+  font-size: 11px;
+  font-weight: normal;
+  color: #ffffffdb;
+  margin-top: 10px;
+  margin: 10px 26px 0px 26px;
+}
+.plan-choice{
+  display:flex;
+  justify-content:space-between;
+  width: 310px;
+  height: 46px;
+  padding: 4px 39px 4px 4px;
+  background-color: #1fb9a3;
+
+
+  margin: -10px 26px 0px 26px;
+}
+.choice{
+  width: 144px;
+  height: 38px;
+  padding: 8px 51px 7px 35px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: border .5s ease-in-out;
+}
+.choice:hover{
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.734);
+
+}
+.basic{
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.415);
+  background-color: #f8f8f8;
+  color: #4e6c9b;
+  font-weight: 600;
+  margin-right: 25px;
+}
+.advanced{
+  text-align: center;
+}
+
+
+.scrollable_div{
+  max-height:415px;
+  overflow: scroll;
+}
+.scrollable_div::-webkit-scrollbar {
+  display: none;
+}
+
+.speed{
+  display: flex;
+  justify-content:space-between;
+  margin: 20px 26px 0px 26px;}
+.option{
+  width: 148px;
+  height: 90px;
+  padding: 15px 21px 15px 10px;
+  background-color: #434343;
+  font-size: 14px;
+  cursor: pointer;
+  transition:.2s ease-in-out;
+
+}
+.speed_choice{
+  font-size:12px;
+  display: block;
+}
+.option:hover{
+  border:2px solid #EDB3BF;
+
+  background-color: #575757;
+}
+
+
+
+
+
+
+.caution{
+  width: 310px;
+  height: 49px;
+  font-size: 10px;
+  letter-spacing:0cm;
+  text-align: left;
+  color: #9acdd1;
+
+  margin: 25px 26px 0px 26px;}
+
+
+
+
+.invoice{
+  margin-top:18px;
+  width: 360px;
+  height: 127px;
+  position :relative;
+  background-color: #636669;
+  font-size:16px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+
+}
+.line{
+  display:flex;
+  justify-content:space-between;
+  margin: 0px 26px 0px 26px;
+  
+}
+
+.fee ,.new_total{
+  color:#9acdd1
+  ;
+}
+
+
+
+
+.create{
+  width: 310px;
+  height: 50px;
+  padding: 13.4px 131px 13.6px;
+  background-color: #1fb9a3;
+  border-radius:13px;
+  margin-top:50px;
+  color:white;
+  font-size:18px;
+  transition:.5s ease-in-out;
+  margin: 30px 26px 30px 26px;}
+.create:hover{
+color:#EDB3BF;
+background-color: white;
+border: 3px solid #EDB3BF ;
+border-radius: 0px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

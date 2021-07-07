@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Importaccount-privatekey.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header>
+        <nav>
+          <span class="logo">
+            <img src="./images/logo.svg" alt="Logo" />
+          </span>
+        </nav>
+        <div class="back">
+          <img src="./images/white-arrow-left.svg" alt="" />
+          <a href="#">Back</a>
+        </div>
+      </header>
+      <main>
+        <h1 class="main_text">Import Account</h1>
+        <h2 class="main_paragraph">
+          Write Down Your Private Key
+        </h2>
+        <div class="scrollable_div">
+          <label for="select" class="select_lbl">Account Type</label>
+          <select name="select" id="select">
+          <option value="" class="disabled" disabled>Select Your Account Type</option>
+          <option value="private" class="normal"selected>Private Key</option>
+          <option value="Json" class="normal" >Json file</option>
+        </select>
+        <label for="private-key" class="private_lbl">Private Key</label>
+        <input type="text" name="private-key" id="private-key" placeholder="Please enter your private key settings here">
+
+        <button class="create">Create</button>
+        </div>
+      <footer>
+        <code class="footer_text">Need help?</code>
+        <code class="footer_text clickable_text"
+          >Contact AlsTogether Support</code
+        >
+      </footer>
+    </div>
+  </body>
+</html>

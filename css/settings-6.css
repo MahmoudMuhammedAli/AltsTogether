@@ -1,0 +1,126 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 360px;
+  height: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+  font-size: 18px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background-color: #5f6366;
+  padding: 26px;
+}
+
+.back {
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.back a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+#new_contact {
+  cursor: pointer;
+}
+#contact_list {
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+#contact_list:hover {
+  border: 4px solid #9acdd1;
+  border-radius: 12px;
+}
+.main_text {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+#central_text {
+  text-align: center;
+}
+.sec_text {
+  margin-top: 6px;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+.edit {
+  cursor: pointer;
+}
+.edit:hover {
+  color: #9acdd1;
+  text-decoration: underline;
+}
+.main_view {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.eth{
+  margin-top:30px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: normal;
+
+  color: #9acdd1;
+}
+
+#eth_id{
+  text-align: left;
+}
+.eth_code{
+  display:flex;
+  font-size:14px;
+}
+/*TOOLTIP*/
+.tooltip{
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+  transition: .5s ease-in-out;
+}
+.tri {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #9acdd1;
+  position:absolute;
+}
+
+.tooltiptext{
+  position:absolute;
+  font-size:14px;
+  width:140px;
+  color:white;
+  background-color:#9acdd1;
+  border-radius: 5px;
+  padding:5px;
+  transform: translate(-100px,9px);
+  
+}
+#copy{
+  cursor:pointer;
+  margin-top:12px;
+}
+.copy:hover .tooltip{
+  visibility: visible;
+  opacity: 1;
+}
+
+

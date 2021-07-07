@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 360px;
+  height: 600px;
+  margin: auto;
+  margin-top: 5rem;
+  border: 1px solid #d9d9d9;
+  overflow: hidden;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+  padding-left: 26px;
+  padding-right: 22px;
+  max-width: 360px;
+  width: 360px;
+  z-index: 1;
+}
+
+header {
+  position: relative;
+  border-top: 1px solid #5f6366;
+}
+
+header .container {
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+header .background {
+  position: absolute;
+  background-color: #5f6366;
+  height: 90.7px;
+  border-radius: 0 0 50% 50%/0 0 100% 100%;
+  transform: scaleX(1.5);
+  transform-origin: center;
+  width: 360px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.27);
+  z-index: -1;
+}
+
+
+.logo img {
+  width: 49.1px;
+  height: 34px;
+}
+
+.header-image {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.account {
+  color: #fff;
+}
+.account-details {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.account-symbol {
+  width: 14px;
+  height: 14px;
+  background-color: #03f4b7;
+  border-radius: 2px;
+  margin-right: 0.5rem;
+}
+.account-name {
+  font-size: 18px;
+}
+.account .arrow {
+  margin-left: 0.5rem;
+}
+.customer-status {
+  margin-top: 0.5rem;
+  font-size: 14px;
+  margin-left: 22px;
+}
+
+.header-image img {
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+/* starting card styles */
+.plan-choice{
+  display:flex;
+  justify-content:space-between;
+  width: 290px;
+  height: 46px;
+  padding: 4px 39px 4px 4px;
+  background-color: #1fb9a3;
+
+
+  margin:40px 26px 0px 26px;
+}
+.choice{
+  width: 144px;
+  height: 38px;
+  padding: 8px 51px 7px 35px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: border .5s ease-in-out;
+}
+
+.basic{
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.415);
+  background-color: #f8f8f8;
+  color: #4e6c9b;
+  font-weight: 600;
+  margin-right: 25px;
+}
+.advanced{
+  text-align: center;
+  color:white;
+}
+
+.form-container{
+  width: 312.3px;
+  height: 425px;
+  margin: -10px 23px 0 24.8px;
+  overflow-y: scroll;
+  
+}
+.form-container::-webkit-scrollbar {
+  display: none;
+}
+
+.assets{
+  margin-top:35px;
+  margin-bottom:70px;
+}
+.asset{
+margin-top: 20px;
+display:flex;
+gap: 10px;
+border:1px solid #1fb9a3;
+border-left:12px solid #4e6c9b;
+}
+.col-2{
+  width:140px;
+  margin-top: 8px;
+}
+.col-3{
+  margin-top:15px;
+  cursor: pointer;
+
+}
+.money{
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5f6366;
+}
+.usd{
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5f6366;
+}
+
+
+.send{
+  font-size: 12px;
+  text-align: right;
+  color: #5f6366;
+  margin-right: 5px;
+}
+.symbol{
+  margin-top:9px;
+  margin-left: 10px;
+  
+}
+
+
+button{
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  font-size: 18px;
+  color:#ffffff;
+  display: block;
+}
+#next{
+  margin-top:32px;
+  background-color: #1fb9a3;
+  border-radius: 9px;
+}
+#next:hover{
+  color: #1fb9a3;
+  background-color:#ffffff;
+  border:2px solid #1fb9a3;
+}
+#cancel{
+  
+  border : none;
+  color: #1d1d1d;
+  margin-bottom: 15px;
+}
+
+
